@@ -1,6 +1,9 @@
 function checkDivisibility(number) {
     var array = [];
-    for (i = 1; i <= number; i++) {
+    // array of numbers from 1 to number
+    for (i = 1; i <= number; i++)
+    // test for divisibility
+    {
         if (i % 2 === 0 && i % 3 === 0) {
             array.push("yu-gi");
         } else if (i % 3 == 0 && i % 5 === 0) {
