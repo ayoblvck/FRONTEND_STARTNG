@@ -23,3 +23,4 @@ function checkDivisibility(number) {
     console.log(array);
 }
 checkDivisibility(100)
+checkDivisibility(53)
